@@ -1,0 +1,59 @@
+name: Sync ingredients from Notion
+
+on:
+  schedule:
+    - cron: "0 7 * * *"   # 03:00 America/New_York, give or take DST
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["tools/sync/**", "packages/engine/**", ".github/workflows/sync.yml"]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: ingredients-sync
+  cancel-in-progress: true
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+
+      - run: npm ci
+
+      # The engine's own tests gate the publish too: a rule file is only as
+      # trustworthy as the matcher that reads it.
+      - name: Test the matching engine
+        run: npm test
+
+      # Fails the job when a row marked Live is incomplete, so a half-written
+      # entry can never reach a phone.
+      - name: Build ingredients.json
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          NOTION_SOURCE_ID: ${{ secrets.NOTION_SOURCE_ID }}
+          SYNC_OUT: public/ingredients.json
+        run: npm run sync
+
+      - name: Publish
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+  deploy:
+    needs: sync
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - id: deploy
+        uses: actions/deploy-pages@v4

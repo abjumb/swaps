@@ -1,0 +1,20 @@
+{
+  "expo": {
+    "name": "Swaps",
+    "slug": "swaps",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.wellwithrayna.swaps",
+      "infoPlist": {
+        "NSCameraUsageDescription": "Swaps reads the ingredient label on a product so it can check it against Rayna's list. Photos are processed on your device and never uploaded."
+      }
+    },
+    "plugins": [
+      ["expo-camera", { "cameraPermission": "Swaps uses the camera to read ingredient labels." }]
+    ]
+  }
+}

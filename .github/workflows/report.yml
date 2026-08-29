@@ -1,0 +1,23 @@
+name: Notion progress report
+
+# Never fails and never publishes. Run it any time to see how much of the
+# ingredient database is still to fill in.
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 13 * * 1"   # Monday morning
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+      - run: npm ci
+      - env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          NOTION_SOURCE_ID: ${{ secrets.NOTION_SOURCE_ID }}
+        run: npm run report -w @swaps/sync >> "$GITHUB_STEP_SUMMARY"

@@ -1,0 +1,12 @@
+{
+  "name": "@swaps/sync",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "build": "tsc -b",
+    "test": "tsc -b ../../packages/engine tsconfig.test.json && node --test dist-test/test/*.test.js",
+    "sync": "tsc -b && node dist/index.js",
+    "report": "tsc -b && node dist/index.js --report"
+  },
+  "dependencies": { "@swaps/engine": "*" }
+}

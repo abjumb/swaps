@@ -1,0 +1,1034 @@
+{
+  "generatedAt": "2026-08-29T14:12:43.549Z",
+  "placeholder": true,
+  "ingredients": [
+    {
+      "id": "1-4-dioxane",
+      "name": "1, 4 Dioxane",
+      "synonyms": [
+        "Polyoxyethylene"
+      ],
+      "tier": "AVOID",
+      "healthConcerns": [],
+      "herTake": "",
+      "appliesTo": [],
+      "sources": []
+    },
+    {
+      "id": "2-butoxyethanol",
+      "name": "2, Butoxyethanol",
+      "synonyms": [
+        "2-Butoxyethanol"
+      ],
+      "tier": "AVOID",
+      "healthConcerns": [],
+      "herTake": "",
+      "appliesTo": [],
+      "sources": []
+    },
+    {
+      "id": "acrylates",
+      "name": "Acrylates",
+      "synonyms": [
+        "Amodimethicone"
+      ],
+      "tier": "CAUTION",
+      "healthConcerns": [],
+      "herTake": "",
+      "appliesTo": [],
+      "sources": [],
+      "pattern": "^acrylates?( copolymer| crosspolymer)?$"
+    },
+    {
+      "id": "alkyl-dimethyl-benzyl",
+      "name": "Alkyl Dimethyl Benzyl",
+      "synonyms": [],
+      "tier": "CAUTION",
+      "healthConcerns": [],
+      "herTake": "",
+      "appliesTo": [],
+      "sources": [],
+      "pattern": "^alkyl dimethyl benzyl.*$"
+    },
+    {
+      "id": "aluminum",
+      "name": "Aluminum",
+      "synonyms": [
+        "Alumina",
+        "Aluminum Chlorohydrate",
+        "Aluminum Chloride",
+        "Aluminum Stearate",
+        "Aluminum Zirconium Tetrachlorohydrex Gly"
+      ],
+      "tier": "AVOID",
+      "healthConcerns": [],
+      "herTake": "",
+      "appliesTo": [],
+      "sources": []
+    },
+    {
+      "id": "aminomethyl-propanol",
+      "name": "Aminomethyl Propanol",
+      "synonyms": [
+        "AMP"
+      ],
+      "tier": "LOW_CONCERN",
+      "healthConcerns": [],
+      "herTake": "",
+      "appliesTo": [],
+      "sources": []
+    },
+    {
+      "id": "ammonia",
+      "name": "Ammonia",
+      "synonyms": [
+        "Ammonium Chloride",
+        "Ammonium Hydroxide",
+        "Ammonium Liquor",
+        "Hydrogen Nitride"
+      ],
+      "tier": "CAUTION",
+      "healthConcerns": [],
+      "herTake": "",
+      "appliesTo": [],
+      "sources": []
+    },
+    {
+      "id": "artificial-dyes",
+      "name": "Artificial Dyes",
+      "synonyms": [],
+      "tier": "AVOID",
+      "healthConcerns": [],
+      "herTake": "",
+      "appliesTo": [],
+      "sources": [],
+      "pattern": "^(fd&c|d&c)\\b.*$|^(blue|red|yellow|green|violet)\\s?\\d+.*$"
+    },
+    {
+      "id": "benzalkonium-chloride",
+      "name": "Benzalkonium Chloride",
+      "synonyms": [],
+      "tier": "CAUTION",
+      "healthConcerns": [],
+      "herTake": "",
+      "appliesTo": [],
+      "sources": []
+    },
+    {
+      "id": "benzene",
+      "name": "Benzene",
+      "synonyms": [],
+      "tier": "AVOID",
+      "healthConcerns": [],
+      "herTake": "",
+      "appliesTo": [],
+      "sources": []
+    },
+    {
+      "id": "benzisothiazolinone",
+      "name": "Benzisothiazolinone",
+      "synonyms": [],
+      "tier": "CAUTION",
+      "healthConcerns": [],
+      "herTake": "",
+      "appliesTo": [],
+      "sources": []
+    },
+    {
+      "id": "benzophenone",
+      "name": "Benzophenone",
+      "synonyms": [],
+      "tier": "AVOID",
+      "healthConcerns": [],
+      "herTake": "",
+      "appliesTo": [],
+      "sources": [],
+      "pattern": "^benzophenone(-\\d+)?$"
+    },
+    {
+      "id": "benzotriazole",
+      "name": "Benzotriazole",
+      "synonyms": [],
+      "tier": "CAUTION",
+      "healthConcerns": [],
+      "herTake": "",
+      "appliesTo": [],
+      "sources": []
+    },
+    {
+      "id": "benzyl-benzoate",
+      "name": "Benzyl Benzoate",
+      "synonyms": [],
+      "tier": "CAUTION",
+      "healthConcerns": [],
+      "herTake": "",
+      "appliesTo": [],
+      "sources": []
+    },
+    {
+      "id": "benzyl-salicylate",
+      "name": "Benzyl Salicylate",
+      "synonyms": [
+        "Benzyl 2-hydroxybenzoate",
+        "Benzyl o-hydroxybenzoate"
+      ],
+      "tier": "CAUTION",
+      "healthConcerns": [],
+      "herTake": "",
+      "appliesTo": [],
+      "sources": []
+    },
+    {
+      "id": "bleach",
+      "name": "Bleach",
+      "synonyms": [
+        "Sodium Hypochlorite"
+      ],
+      "tier": "CAUTION",
+      "healthConcerns": [],
+      "herTake": "",
+      "appliesTo": [],
+      "sources": []
+    },
+    {
+      "id": "butylated-hydroxyanisole-bha",
+      "name": "Butylated Hydroxyanisole (BHA)",
+      "synonyms": [
+        "BHA"
+      ],
+      "tier": "AVOID",
+      "healthConcerns": [],
+      "herTake": "",
+      "appliesTo": [],
+      "sources": []
+    },
+    {
+      "id": "butylated-hydroxytoluene-bht",
+      "name": "Butylated Hydroxytoluene (BHT)",
+      "synonyms": [
+        "BHT"
+      ],
+      "tier": "CAUTION",
+      "healthConcerns": [],
+      "herTake": "",
+      "appliesTo": [],
+      "sources": []
+    },
+    {
+      "id": "butylparaben",
+      "name": "Butylparaben",
+      "synonyms": [],
+      "tier": "AVOID",
+      "healthConcerns": [],
+      "herTake": "",
+      "appliesTo": [],
+      "sources": []
+    },
+    {
+      "id": "ceteareth-10-30-etc",
+      "name": "Ceteareth (10, 30, etc.)",
+      "synonyms": [],
+      "tier": "CAUTION",
+      "healthConcerns": [],
+      "herTake": "",
+      "appliesTo": [],
+      "sources": [],
+      "pattern": "^ceteareth[- ]?\\d+$"
+    },
+    {
+      "id": "chlorine",
+      "name": "Chlorine",
+      "synonyms": [],
+      "tier": "CAUTION",
+      "healthConcerns": [],
+      "herTake": "",
+      "appliesTo": [],
+      "sources": []
+    },
+    {
+      "id": "chlorophenesin",
+      "name": "Chlorophenesin",
+      "synonyms": [
+        "3-(4-chlorophenoxy)-1,2-propanediol"
+      ],
+      "tier": "LOW_CONCERN",
+      "healthConcerns": [],
+      "herTake": "",
+      "appliesTo": [],
+      "sources": []
+    },
+    {
+      "id": "chloroxylenol",
+      "name": "Chloroxylenol",
+      "synonyms": [
+        "PCMX",
+        "4-Chloro-3,5-dimethylphenol",
+        "4-Chloro-3,5-xylenol"
+      ],
+      "tier": "CAUTION",
+      "healthConcerns": [],
+      "herTake": "",
+      "appliesTo": [],
+      "sources": []
+    },
+    {
+      "id": "cocamidopropyl-betaine",
+      "name": "Cocamidopropyl Betaine",
+      "synonyms": [
+        "Cocamidopropyl dimethyl glycine",
+        "Cocoyl amide propylbetaine"
+      ],
+      "tier": "LOW_CONCERN",
+      "healthConcerns": [],
+      "herTake": "",
+      "appliesTo": [],
+      "sources": []
+    },
+    {
+      "id": "cocamidopropyl-hydroxysultaine",
+      "name": "Cocamidopropyl Hydroxysultaine",
+      "synonyms": [],
+      "tier": "LOW_CONCERN",
+      "healthConcerns": [],
+      "herTake": "",
+      "appliesTo": [],
+      "sources": []
+    },
+    {
+      "id": "cyclopentasiloxane",
+      "name": "Cyclopentasiloxane",
+      "synonyms": [
+        "D5",
+        "Cyclomethicone"
+      ],
+      "tier": "CAUTION",
+      "healthConcerns": [],
+      "herTake": "",
+      "appliesTo": [],
+      "sources": []
+    },
+    {
+      "id": "dea-diethanolamine",
+      "name": "DEA / Diethanolamine",
+      "synonyms": [
+        "Cocamide DEA",
+        "Cocamide MEA",
+        "Diethanolamine"
+      ],
+      "tier": "AVOID",
+      "healthConcerns": [],
+      "herTake": "",
+      "appliesTo": [],
+      "sources": []
+    },
+    {
+      "id": "diazolidinyl-urea",
+      "name": "Diazolidinyl Urea",
+      "synonyms": [],
+      "tier": "AVOID",
+      "healthConcerns": [],
+      "herTake": "",
+      "appliesTo": [],
+      "sources": []
+    },
+    {
+      "id": "disodium-edta",
+      "name": "Disodium EDTA",
+      "synonyms": [
+        "Edetate Sodium",
+        "Tetrasodium EDTA"
+      ],
+      "tier": "CAUTION",
+      "healthConcerns": [],
+      "herTake": "",
+      "appliesTo": [],
+      "sources": []
+    },
+    {
+      "id": "ethanolamine",
+      "name": "Ethanolamine",
+      "synonyms": [],
+      "tier": "CAUTION",
+      "healthConcerns": [],
+      "herTake": "",
+      "appliesTo": [],
+      "sources": []
+    },
+    {
+      "id": "ethoxylate",
+      "name": "Ethoxylate",
+      "synonyms": [],
+      "tier": "CAUTION",
+      "healthConcerns": [],
+      "herTake": "",
+      "appliesTo": [],
+      "sources": []
+    },
+    {
+      "id": "ethylene-glycol",
+      "name": "Ethylene Glycol",
+      "synonyms": [
+        "EGMs"
+      ],
+      "tier": "CAUTION",
+      "healthConcerns": [],
+      "herTake": "",
+      "appliesTo": [],
+      "sources": []
+    },
+    {
+      "id": "ethylene-oxide",
+      "name": "Ethylene Oxide",
+      "synonyms": [
+        "Isosteareth",
+        "Oleth",
+        "Sodium Coceth Sulfate"
+      ],
+      "tier": "AVOID",
+      "healthConcerns": [],
+      "herTake": "",
+      "appliesTo": [],
+      "sources": [],
+      "pattern": "^[a-z]{4,}eth$"
+    },
+    {
+      "id": "ethylhexyl-methoxycinnamate",
+      "name": "Ethylhexyl Methoxycinnamate",
+      "synonyms": [],
+      "tier": "AVOID",
+      "healthConcerns": [],
+      "herTake": "",
+      "appliesTo": [],
+      "sources": []
+    },
+    {
+      "id": "ethylparaben",
+      "name": "Ethylparaben",
+      "synonyms": [],
+      "tier": "CAUTION",
+      "healthConcerns": [],
+      "herTake": "",
+      "appliesTo": [],
+      "sources": []
+    },
+    {
+      "id": "formaldehyde",
+      "name": "Formaldehyde",
+      "synonyms": [
+        "DMDM Hydantoin",
+        "Formalin",
+        "Methanal",
+        "Imidazolidinyl Urea"
+      ],
+      "tier": "AVOID",
+      "healthConcerns": [],
+      "herTake": "",
+      "appliesTo": [],
+      "sources": []
+    },
+    {
+      "id": "fragrance-parfum",
+      "name": "Fragrance / Parfum",
+      "synonyms": [
+        "Parfum",
+        "Aroma",
+        "Fragrance"
+      ],
+      "tier": "AVOID",
+      "healthConcerns": [],
+      "herTake": "",
+      "appliesTo": [],
+      "sources": [],
+      "pattern": "^(fragrance|parfum|aroma)(\\s*\\(.*\\))?$"
+    },
+    {
+      "id": "homosalate",
+      "name": "Homosalate",
+      "synonyms": [
+        "HMS",
+        "Homomenthyl salicylate"
+      ],
+      "tier": "CAUTION",
+      "healthConcerns": [],
+      "herTake": "",
+      "appliesTo": [],
+      "sources": []
+    },
+    {
+      "id": "hydroquinone",
+      "name": "Hydroquinone",
+      "synonyms": [],
+      "tier": "AVOID",
+      "healthConcerns": [],
+      "herTake": "",
+      "appliesTo": [],
+      "sources": []
+    },
+    {
+      "id": "isoceteth-2-10-etc",
+      "name": "Isoceteth (2, 10, etc.)",
+      "synonyms": [],
+      "tier": "CAUTION",
+      "healthConcerns": [],
+      "herTake": "",
+      "appliesTo": [],
+      "sources": [],
+      "pattern": "^isoceteth[- ]?\\d+$"
+    },
+    {
+      "id": "lake-dyes",
+      "name": "Lake Dyes",
+      "synonyms": [
+        "CI 15850",
+        "CI 19140",
+        "CI 42090",
+        "CI 45370"
+      ],
+      "tier": "AVOID",
+      "healthConcerns": [],
+      "herTake": "",
+      "appliesTo": [],
+      "sources": [],
+      "pattern": "^ci\\s?\\d{5}$|lake$"
+    },
+    {
+      "id": "lauramidopropyl-betaine",
+      "name": "Lauramidopropyl Betaine",
+      "synonyms": [],
+      "tier": "LOW_CONCERN",
+      "healthConcerns": [],
+      "herTake": "",
+      "appliesTo": [],
+      "sources": []
+    },
+    {
+      "id": "laureth-4-6-9-etc",
+      "name": "Laureth (4, 6, 9, etc.)",
+      "synonyms": [],
+      "tier": "CAUTION",
+      "healthConcerns": [],
+      "herTake": "",
+      "appliesTo": [],
+      "sources": [],
+      "pattern": "^laureth[- ]?\\d+$"
+    },
+    {
+      "id": "lauryl-sarcosine",
+      "name": "Lauryl Sarcosine",
+      "synonyms": [],
+      "tier": "LOW_CONCERN",
+      "healthConcerns": [],
+      "herTake": "",
+      "appliesTo": [],
+      "sources": []
+    },
+    {
+      "id": "mea-monoethanolamine",
+      "name": "MEA / Monoethanolamine",
+      "synonyms": [
+        "Monoethanolamine"
+      ],
+      "tier": "CAUTION",
+      "healthConcerns": [],
+      "herTake": "",
+      "appliesTo": [],
+      "sources": []
+    },
+    {
+      "id": "methylchloroisothiazolinone-mci",
+      "name": "Methylchloroisothiazolinone (MCI)",
+      "synonyms": [
+        "MCI",
+        "Methylchloroisothiazolinone"
+      ],
+      "tier": "AVOID",
+      "healthConcerns": [],
+      "herTake": "",
+      "appliesTo": [],
+      "sources": []
+    },
+    {
+      "id": "methylisothiazolinone-mit",
+      "name": "Methylisothiazolinone (MIT)",
+      "synonyms": [
+        "MIT",
+        "Methylisothiazolinone"
+      ],
+      "tier": "AVOID",
+      "healthConcerns": [],
+      "herTake": "",
+      "appliesTo": [],
+      "sources": []
+    },
+    {
+      "id": "methylparaben",
+      "name": "Methylparaben",
+      "synonyms": [],
+      "tier": "CAUTION",
+      "healthConcerns": [],
+      "herTake": "",
+      "appliesTo": [],
+      "sources": []
+    },
+    {
+      "id": "mineral-oil",
+      "name": "Mineral Oil",
+      "synonyms": [],
+      "tier": "CAUTION",
+      "healthConcerns": [],
+      "herTake": "",
+      "appliesTo": [],
+      "sources": []
+    },
+    {
+      "id": "nonylphenol-ethoxylates-npes",
+      "name": "Nonylphenol Ethoxylates (NPEs)",
+      "synonyms": [
+        "Nonoxynol",
+        "Octylphenol",
+        "Hectaphenol"
+      ],
+      "tier": "AVOID",
+      "healthConcerns": [],
+      "herTake": "",
+      "appliesTo": [],
+      "sources": []
+    },
+    {
+      "id": "octinoxate",
+      "name": "Octinoxate",
+      "synonyms": [
+        "2-ethylhexyl p-methoxycinnamate",
+        "Escalol",
+        "Methoxycinnamate"
+      ],
+      "tier": "AVOID",
+      "healthConcerns": [],
+      "herTake": "",
+      "appliesTo": [],
+      "sources": []
+    },
+    {
+      "id": "octocrylene",
+      "name": "Octocrylene",
+      "synonyms": [],
+      "tier": "CAUTION",
+      "healthConcerns": [],
+      "herTake": "",
+      "appliesTo": [],
+      "sources": []
+    },
+    {
+      "id": "optical-brighteners",
+      "name": "Optical Brighteners",
+      "synonyms": [
+        "Disodium distyrylbiphenyl disulfonate",
+        "Fluorescent brightener"
+      ],
+      "tier": "CAUTION",
+      "healthConcerns": [],
+      "herTake": "",
+      "appliesTo": [],
+      "sources": []
+    },
+    {
+      "id": "oxybenzone",
+      "name": "Oxybenzone",
+      "synonyms": [
+        "Benzophenone-3"
+      ],
+      "tier": "AVOID",
+      "healthConcerns": [],
+      "herTake": "",
+      "appliesTo": [],
+      "sources": []
+    },
+    {
+      "id": "pahs",
+      "name": "PAHs",
+      "synonyms": [
+        "Polycyclic Aromatic Hydrocarbons"
+      ],
+      "tier": "AVOID",
+      "healthConcerns": [],
+      "herTake": "",
+      "appliesTo": [],
+      "sources": []
+    },
+    {
+      "id": "parabens",
+      "name": "Parabens",
+      "synonyms": [],
+      "tier": "AVOID",
+      "healthConcerns": [],
+      "herTake": "",
+      "appliesTo": [],
+      "sources": [],
+      "pattern": "paraben$"
+    },
+    {
+      "id": "paraffin",
+      "name": "Paraffin",
+      "synonyms": [],
+      "tier": "CAUTION",
+      "healthConcerns": [],
+      "herTake": "",
+      "appliesTo": [],
+      "sources": []
+    },
+    {
+      "id": "petrolatum",
+      "name": "Petrolatum",
+      "synonyms": [
+        "Petroleum Jelly"
+      ],
+      "tier": "CAUTION",
+      "healthConcerns": [],
+      "herTake": "",
+      "appliesTo": [],
+      "sources": []
+    },
+    {
+      "id": "petroleum",
+      "name": "Petroleum",
+      "synonyms": [],
+      "tier": "CAUTION",
+      "healthConcerns": [],
+      "herTake": "",
+      "appliesTo": [],
+      "sources": []
+    },
+    {
+      "id": "phenoxyethanol",
+      "name": "Phenoxyethanol",
+      "synonyms": [],
+      "tier": "CAUTION",
+      "healthConcerns": [],
+      "herTake": "",
+      "appliesTo": [],
+      "sources": []
+    },
+    {
+      "id": "phosphates",
+      "name": "Phosphates",
+      "synonyms": [],
+      "tier": "CAUTION",
+      "healthConcerns": [],
+      "herTake": "",
+      "appliesTo": [],
+      "sources": []
+    },
+    {
+      "id": "phthalates",
+      "name": "Phthalates",
+      "synonyms": [
+        "Di-2-ethylhexyl phthalate",
+        "DEHP",
+        "Dibutyl Phthalate",
+        "DBP",
+        "Diethyl Phthalate",
+        "DEP"
+      ],
+      "tier": "AVOID",
+      "healthConcerns": [],
+      "herTake": "",
+      "appliesTo": [],
+      "sources": [],
+      "pattern": "phthalate$"
+    },
+    {
+      "id": "poloxamer",
+      "name": "Poloxamer",
+      "synonyms": [],
+      "tier": "CAUTION",
+      "healthConcerns": [],
+      "herTake": "",
+      "appliesTo": [],
+      "sources": [],
+      "pattern": "^poloxamer[- ]?\\d*$"
+    },
+    {
+      "id": "polyacrylamide",
+      "name": "Polyacrylamide",
+      "synonyms": [],
+      "tier": "CAUTION",
+      "healthConcerns": [],
+      "herTake": "",
+      "appliesTo": [],
+      "sources": []
+    },
+    {
+      "id": "polyaminopropyl-biguanide-papb",
+      "name": "Polyaminopropyl Biguanide (PAPB)",
+      "synonyms": [
+        "Polyhexanide",
+        "PHMB"
+      ],
+      "tier": "CAUTION",
+      "healthConcerns": [],
+      "herTake": "",
+      "appliesTo": [],
+      "sources": []
+    },
+    {
+      "id": "polyethylene-glycol-peg",
+      "name": "Polyethylene Glycol (PEG)",
+      "synonyms": [],
+      "tier": "CAUTION",
+      "healthConcerns": [],
+      "herTake": "",
+      "appliesTo": [],
+      "sources": [],
+      "pattern": "^peg[- /]?\\d+.*$"
+    },
+    {
+      "id": "polyquaternium-7-10-etc",
+      "name": "Polyquaternium (7, 10, etc.)",
+      "synonyms": [],
+      "tier": "CAUTION",
+      "healthConcerns": [],
+      "herTake": "",
+      "appliesTo": [],
+      "sources": [],
+      "pattern": "^polyquaternium[- ]?\\d+$"
+    },
+    {
+      "id": "polysorbate-20-60-etc",
+      "name": "Polysorbate (20, 60, etc.)",
+      "synonyms": [],
+      "tier": "CAUTION",
+      "healthConcerns": [],
+      "herTake": "",
+      "appliesTo": [],
+      "sources": [],
+      "pattern": "^polysorbate[- ]?\\d+$"
+    },
+    {
+      "id": "polytetrafluoroethylene-ptfe",
+      "name": "Polytetrafluoroethylene (PTFE)",
+      "synonyms": [
+        "PTFE"
+      ],
+      "tier": "AVOID",
+      "healthConcerns": [],
+      "herTake": "",
+      "appliesTo": [],
+      "sources": []
+    },
+    {
+      "id": "propylparaben",
+      "name": "Propylparaben",
+      "synonyms": [],
+      "tier": "AVOID",
+      "healthConcerns": [],
+      "herTake": "",
+      "appliesTo": [],
+      "sources": []
+    },
+    {
+      "id": "quaternary-ammonium-compounds-quats",
+      "name": "Quaternary Ammonium Compounds (Quats)",
+      "synonyms": [
+        "Cetrimonium bromide",
+        "Cetrimonium chloride",
+        "Behentrimonium chloride"
+      ],
+      "tier": "CAUTION",
+      "healthConcerns": [],
+      "herTake": "",
+      "appliesTo": [],
+      "sources": []
+    },
+    {
+      "id": "quaternium-15",
+      "name": "Quaternium-15",
+      "synonyms": [],
+      "tier": "AVOID",
+      "healthConcerns": [],
+      "herTake": "",
+      "appliesTo": [],
+      "sources": []
+    },
+    {
+      "id": "silica-powder",
+      "name": "Silica Powder",
+      "synonyms": [],
+      "tier": "CAUTION",
+      "healthConcerns": [],
+      "herTake": "",
+      "appliesTo": [],
+      "sources": []
+    },
+    {
+      "id": "sodium-borate",
+      "name": "Sodium Borate",
+      "synonyms": [
+        "Borax",
+        "Disodium Tetraborate"
+      ],
+      "tier": "CAUTION",
+      "healthConcerns": [],
+      "herTake": "",
+      "appliesTo": [],
+      "sources": []
+    },
+    {
+      "id": "sodium-dichloroisocyanurate-dihydrate",
+      "name": "Sodium Dichloroisocyanurate Dihydrate",
+      "synonyms": [],
+      "tier": "CAUTION",
+      "healthConcerns": [],
+      "herTake": "",
+      "appliesTo": [],
+      "sources": []
+    },
+    {
+      "id": "sodium-hydroxide",
+      "name": "Sodium Hydroxide",
+      "synonyms": [
+        "Lye"
+      ],
+      "tier": "LOW_CONCERN",
+      "healthConcerns": [],
+      "herTake": "",
+      "appliesTo": [],
+      "sources": []
+    },
+    {
+      "id": "sodium-laureth-sulfate-sles",
+      "name": "Sodium Laureth Sulfate (SLES)",
+      "synonyms": [
+        "SLES",
+        "Sodium Laureth Sulfate"
+      ],
+      "tier": "CAUTION",
+      "healthConcerns": [],
+      "herTake": "",
+      "appliesTo": [],
+      "sources": []
+    },
+    {
+      "id": "sodium-lauroyl-sarcosinate",
+      "name": "Sodium Lauroyl Sarcosinate",
+      "synonyms": [],
+      "tier": "LOW_CONCERN",
+      "healthConcerns": [],
+      "herTake": "",
+      "appliesTo": [],
+      "sources": []
+    },
+    {
+      "id": "sodium-lauryl-sulfate-sls",
+      "name": "Sodium Lauryl Sulfate (SLS)",
+      "synonyms": [
+        "SLS",
+        "Sodium Lauryl Sulfate"
+      ],
+      "tier": "CAUTION",
+      "healthConcerns": [],
+      "herTake": "",
+      "appliesTo": [],
+      "sources": []
+    },
+    {
+      "id": "steareth-20-21-etc",
+      "name": "Steareth (20, 21, etc.)",
+      "synonyms": [],
+      "tier": "CAUTION",
+      "healthConcerns": [],
+      "herTake": "",
+      "appliesTo": [],
+      "sources": [],
+      "pattern": "^steareth[- ]?\\d+$"
+    },
+    {
+      "id": "talc",
+      "name": "Talc",
+      "synonyms": [],
+      "tier": "AVOID",
+      "healthConcerns": [],
+      "herTake": "",
+      "appliesTo": [],
+      "sources": []
+    },
+    {
+      "id": "tbhq",
+      "name": "TBHQ",
+      "synonyms": [
+        "Tert-Butylhydroquinone"
+      ],
+      "tier": "AVOID",
+      "healthConcerns": [],
+      "herTake": "",
+      "appliesTo": [],
+      "sources": []
+    },
+    {
+      "id": "teflon",
+      "name": "Teflon",
+      "synonyms": [],
+      "tier": "AVOID",
+      "healthConcerns": [],
+      "herTake": "",
+      "appliesTo": [],
+      "sources": []
+    },
+    {
+      "id": "toluene",
+      "name": "Toluene",
+      "synonyms": [],
+      "tier": "AVOID",
+      "healthConcerns": [],
+      "herTake": "",
+      "appliesTo": [],
+      "sources": []
+    },
+    {
+      "id": "triclocarban",
+      "name": "Triclocarban",
+      "synonyms": [
+        "3,4,4'-Trichlorocarbanilide",
+        "TCC"
+      ],
+      "tier": "AVOID",
+      "healthConcerns": [],
+      "herTake": "",
+      "appliesTo": [],
+      "sources": []
+    },
+    {
+      "id": "triclosan",
+      "name": "Triclosan",
+      "synonyms": [],
+      "tier": "AVOID",
+      "healthConcerns": [],
+      "herTake": "",
+      "appliesTo": [],
+      "sources": []
+    },
+    {
+      "id": "trideceth-10-30-etc",
+      "name": "Trideceth (10, 30, etc.)",
+      "synonyms": [],
+      "tier": "CAUTION",
+      "healthConcerns": [],
+      "herTake": "",
+      "appliesTo": [],
+      "sources": [],
+      "pattern": "^trideceth[- ]?\\d+$"
+    },
+    {
+      "id": "triethanolamine-tea",
+      "name": "Triethanolamine (TEA)",
+      "synonyms": [
+        "TEA",
+        "Triethanolamine"
+      ],
+      "tier": "CAUTION",
+      "healthConcerns": [],
+      "herTake": "",
+      "appliesTo": [],
+      "sources": []
+    }
+  ]
+}
