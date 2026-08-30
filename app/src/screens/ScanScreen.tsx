@@ -8,13 +8,17 @@ import { useTheme } from "../theme";
 
 interface Props {
   onLabel: (rawText: string) => void;
+  /** Return to the dashboard. */
+  onBack: () => void;
+  /** Open straight into the type-the-list view. */
+  startTyping?: boolean;
 }
 
-export function ScanScreen({ onLabel }: Props) {
+export function ScanScreen({ onLabel, onBack, startTyping }: Props) {
   const t = useTheme();
   const [permission, requestPermission] = useCameraPermissions();
   const [busy, setBusy] = useState(false);
-  const [typing, setTyping] = useState(false);
+  const [typing, setTyping] = useState(!!startTyping);
   const [draft, setDraft] = useState("");
   const [error, setError] = useState<string | null>(null);
   const camera = useRef<CameraView>(null);
@@ -63,6 +67,9 @@ export function ScanScreen({ onLabel }: Props) {
         <Pressable accessibilityRole="button" onPress={() => setTyping(false)}>
           <Text style={[s.link, { color: t.accent }]}>Use the camera instead</Text>
         </Pressable>
+        <Pressable accessibilityRole="button" onPress={onBack}>
+          <Text style={[s.link, { color: t.ink3 }]}>← Home</Text>
+        </Pressable>
       </View>
     );
   }
@@ -83,6 +90,9 @@ export function ScanScreen({ onLabel }: Props) {
         </Pressable>
         <Pressable accessibilityRole="button" onPress={() => setTyping(true)}>
           <Text style={[s.link, { color: t.accent }]}>Type the list instead</Text>
+        </Pressable>
+        <Pressable accessibilityRole="button" onPress={onBack}>
+          <Text style={[s.link, { color: t.ink3 }]}>← Home</Text>
         </Pressable>
       </View>
     );
@@ -111,6 +121,9 @@ export function ScanScreen({ onLabel }: Props) {
         </Pressable>
         <Pressable accessibilityRole="button" onPress={() => setTyping(true)}>
           <Text style={[s.link, { color: t.accent }]}>Type the list instead</Text>
+        </Pressable>
+        <Pressable accessibilityRole="button" onPress={onBack}>
+          <Text style={[s.link, { color: t.ink3 }]}>← Home</Text>
         </Pressable>
       </View>
     </View>

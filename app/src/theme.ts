@@ -22,6 +22,8 @@ const light = {
   accent: "#4A3F7A",
   verdictInk: { green: "#0A7D0A", yellow: "#8A6100", red: "#B8332F" },
   verdictBg: { green: "#E6F5E6", yellow: "#FDF1D9", red: "#FAE9E9" },
+  // The dashboard wears her Linktree's colours: sky ground, deep blue ink.
+  home: { ground: "#C9EDF8", ink: "#1D3FAF", ink2: "#4568C2" },
 };
 
 const dark: typeof light = {
@@ -35,6 +37,7 @@ const dark: typeof light = {
   accent: "#B3A4E8",
   verdictInk: { green: "#3FC93F", yellow: "#FAB219", red: "#E86B6B" },
   verdictBg: { green: "#142A14", yellow: "#322611", red: "#2E1717" },
+  home: { ground: "#0E1B2E", ink: "#9CC4F5", ink2: "#6D8FC4" },
 };
 
 export type Theme = typeof light;
