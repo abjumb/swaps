@@ -14,7 +14,7 @@ import bundled from "../../assets/ingredients.json";
  */
 
 const REMOTE_URL =
-  process.env.EXPO_PUBLIC_RULES_URL ?? "https://wellwithrayna.github.io/swaps/ingredients.json";
+  process.env.EXPO_PUBLIC_RULES_URL ?? "https://abjumb.github.io/swaps/ingredients.json";
 
 const CACHE = `${FileSystem.documentDirectory}ingredients.json`;
 

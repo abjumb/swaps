@@ -41,7 +41,17 @@ jobs:
           NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
           NOTION_SOURCE_ID: ${{ secrets.NOTION_SOURCE_ID }}
           SYNC_OUT: public/ingredients.json
-        run: npm run sync
+        # Until the Notion secrets are configured, publish the bundled
+        # placeholder rules so the Pages URL serves a valid file. The moment
+        # NOTION_TOKEN exists, the real sync takes over unchanged.
+        run: |
+          mkdir -p public
+          if [ -n "$NOTION_TOKEN" ]; then
+            npm run sync
+          else
+            echo "::notice::NOTION_TOKEN not set - publishing bundled placeholder rules instead of syncing from Notion."
+            cp app/assets/ingredients.json public/ingredients.json
+          fi
 
       - name: Publish
         uses: actions/upload-pages-artifact@v3
