@@ -11,6 +11,9 @@ app               the iOS app (Expo)
 data              generated rule files
 ```
 
+New here? [CLAUDE.md](CLAUDE.md) is the agent/contributor context document;
+[ROADMAP.md](ROADMAP.md) is where the product goes next.
+
 ## The rule that everything else protects
 
 Only the **AVOID** tier can make a product red. Everything else caps at yellow.
